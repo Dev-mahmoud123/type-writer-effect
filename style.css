@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgba(7, 0, 36, 0.678);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.contain {
+  margin-left: 50px;
+}
+.contain h1 {
+  margin-bottom: 10px;
+}
+.contain h2 {
+  color: #ddd;
+  font-weight: normal;
+}
+.txt-type .txt {
+  border-right: 3px solid #777;
+}
+@media (max-width: 767px) {
+  .contain h1 {
+    font-size: 20px;
+  }
+  .contain h2 {
+    font-size: 16px;
+  }
+}
